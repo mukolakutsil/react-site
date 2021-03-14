@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { FormControl, Navbar, Nav, Container, Form, Button } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import logo from './logo192.png';
+import logo from './mazda_logo.png';
 
 
 export default class Header extends Component {
@@ -15,12 +15,11 @@ export default class Header extends Component {
 
                                 <img
                                     src={logo}
-                                    height="30"
-                                    width="30"
+                                    height="80"
+                                    // width="80"
                                     className="d-inline-block align-top"
                                     alt="logo"
                                 />
-                              React site
                             </NavLink>
                         </Navbar.Brand>
                         <Navbar.Toggle arial-controls="responsive-navbar-nav" />
@@ -30,7 +29,7 @@ export default class Header extends Component {
                                     <NavLink className="link" to="/">Home</NavLink>
                                 </Nav.Link>
                                 <Nav.Link>
-                                    <NavLink className="link" to="/about">About us</NavLink>
+                                    <NavLink className="link" to="/models">Models</NavLink>
                                 </Nav.Link>
                                 <Nav.Link>
                                     <NavLink className="link" to="/contacts">Contacts</NavLink>

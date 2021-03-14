@@ -35,7 +35,7 @@ export default class CarouselBox extends Component {
                     />
                     <Carousel.Caption>
                         <h3>Mazda 7</h3>
-                        <p>The best spor-mazda)</p>
+                        <p>The best sport-mazda)</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
