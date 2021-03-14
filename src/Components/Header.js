@@ -10,16 +10,19 @@ export default class Header extends Component {
             <>
                 <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
                     <Container>
-                        <Navbar.Brand href="/">
-                            <img
-                                src={logo}
-                                height="30"
-                                width="30"
-                                className="d-inline-block align-top"
-                                alt="logo"
-                            />
-                        React site
-                    </Navbar.Brand>
+                        <Navbar.Brand>
+                            <NavLink className="link" to="/">
+
+                                <img
+                                    src={logo}
+                                    height="30"
+                                    width="30"
+                                    className="d-inline-block align-top"
+                                    alt="logo"
+                                />
+                              React site
+                            </NavLink>
+                        </Navbar.Brand>
                         <Navbar.Toggle arial-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="mr-auto">
